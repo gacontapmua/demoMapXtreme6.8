@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "dest4482.bmp"
+  Type "RASTER"
+  (0,0) (35,29) Label "Pt 1",
+  (1,0) (2315,42) Label "Pt 2",
+  (1,1) (2303,3155) Label "Pt 3"
+  CoordSys Earth Projection 1, 0
+  Units "degree"

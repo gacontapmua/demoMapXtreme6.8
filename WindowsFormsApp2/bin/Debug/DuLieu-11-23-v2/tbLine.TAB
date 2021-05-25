@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 3
+    IdLine Char (20) Index 1 ;
+    NameLine Char (200) ;
+    Points Char (100) ;
