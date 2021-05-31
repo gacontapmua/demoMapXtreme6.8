@@ -1,0 +1,26 @@
+!table
+!version 300
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 14
+    LAYER Char (17) ;
+    OBJECTID Integer ;
+    maTrinhBay Char (10) ;
+    doChinhXac Float ;
+    maDoiTuong Char (4) ;
+    ten Char (150) ;
+    doRong Char (254) ;
+    trangThai Char (254) ;
+    mucChiTiet Char (254) ;
+    tgThuNhan Char (9) ;
+    tgCapNhat Char (9) ;
+    nguonDL Char (150) ;
+    Shape_Leng Float ;
+    Shape_Area Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "f583a5d6-5d65-4e4e-8d2b-e55c378e965d"
+end_metadata

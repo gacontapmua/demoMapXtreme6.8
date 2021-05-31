@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DemoMapxtreme68
+</name>
+</assembly>
+<members>
+<member name="T:DemoMapxtreme68.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DemoMapxtreme68.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DemoMapxtreme68.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Mở Geoset
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Mở bảng .TAB
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button5_Click(System.Object,System.EventArgs)">
+ <summary>
+ Lấy Tỷ lệ bản đồ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ lưu geoset. với mapxtreme 6.8 có thể sử dụng được geoset của bản mapx 5.0 nhưng không có chiều ngược lại
+ Bản mapxtreme 6.8 dữ liệu worckspace lưu định dạng .wor
+ In MapX, you used the Map.SaveMapAsGeoset 
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button6_Click(System.Object,System.EventArgs)">
+ <summary>
+ Remove Layer "SongSuoiA"
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button7_Click(System.Object,System.EventArgs)">
+ <summary>
+ Giá trị zoom map
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button8_Click(System.Object,System.EventArgs)">
+ <summary>
+ Đổi style cho lớp đối tượng
+ cái này lưu ý phải add references là MapInfo.Windows.Framework (trong thư mục commonfile/mapinfo) 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.Button4_Click(System.Object,System.EventArgs)">
+ <summary>
+ Hiển thị nhãn 'name' lớp 'FIR'
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DemoMapxtreme68.Form1.CheckBox1_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ ẩn hiện lớp dữ liệu Biên giới quốc gia
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

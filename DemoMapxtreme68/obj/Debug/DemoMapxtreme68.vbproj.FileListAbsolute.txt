@@ -1,0 +1,218 @@
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe.config
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.pdb
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.xml
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Leadtools.Codecs.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Leadtools.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CommonDialogExt.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.Wrapper.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreTypes.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Dialogs.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Wms.Client.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Framework.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CommonDialogExtRes.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AllType.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AppSelection.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AppUtil.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ChangeManager.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CommandProcessor.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Compiler.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CoordSys.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CustomProperties.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DAEngine.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DBInfo.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DBLayer.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ExprPacket.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ExprPacketCreator.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\FcnInfoServer.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Find.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Geo.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GeoObject.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GeoObjectProcess.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Geoset.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GMLXlat.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Legend.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\libspw_mi.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapBasicInternalFcn.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapBasicTranslator.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapperAndLayout.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIApp.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MILexer.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIMetadata.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MILicensing.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIOci.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIOdbc.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIRdb.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIRdbSpatial.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\migdiplus.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIWindow.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Program.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Raster.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Styles.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\TextFileReader.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Thematics.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Tokens.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Tools.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Utility.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\XmlUtil.DLL
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Interop.MapXLib.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AxInterop.MapXLib.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbprojAssemblyReference.cache
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\Interop.MapXLib.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\AxInterop.MapXLib.dll
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.ResolveComReference.cache
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Form1.resources
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Resources.resources
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.GenerateResource.cache
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.CoreCompileInputs.cache
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.CopyComplete
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.exe
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.xml
+E:\Mapxtreme68\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.pdb
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe.config
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.pdb
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.xml
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Leadtools.Codecs.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Leadtools.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CommonDialogExt.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.Wrapper.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.CoreTypes.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Dialogs.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Framework.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapInfo.Wms.Client.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CommonDialogExtRes.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AllType.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AppSelection.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AppUtil.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ChangeManager.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CommandProcessor.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Compiler.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CoordSys.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\CustomProperties.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DAEngine.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DBInfo.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\DBLayer.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ExprPacket.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\ExprPacketCreator.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\FcnInfoServer.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Find.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Geo.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GeoObject.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GeoObjectProcess.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Geoset.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\GMLXlat.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Legend.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\libspw_mi.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapBasicInternalFcn.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapBasicTranslator.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MapperAndLayout.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIApp.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MILexer.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIMetadata.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MILicensing.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIOci.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIOdbc.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIRdb.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIRdbSpatial.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\migdiplus.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\MIWindow.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Program.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Raster.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Styles.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\TextFileReader.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Thematics.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Tokens.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Tools.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Utility.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\XmlUtil.DLL
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\Interop.MapXLib.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\bin\Debug\AxInterop.MapXLib.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbprojAssemblyReference.cache
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\Interop.MapXLib.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\AxInterop.MapXLib.dll
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.ResolveComReference.cache
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Form1.resources
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Resources.resources
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.GenerateResource.cache
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.CoreCompileInputs.cache
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.CopyComplete
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.exe
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.xml
+D:\DemoMapxtreme68\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.pdb
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe.config
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.exe
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.pdb
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DemoMapxtreme68.xml
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Leadtools.Codecs.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Leadtools.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.CommonDialogExt.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.CoreEngine.Wrapper.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.CoreTypes.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Dialogs.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.Windows.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.Windows.Framework.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapInfo.Wms.Client.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\CommonDialogExtRes.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\AllType.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\AppSelection.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\AppUtil.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\ChangeManager.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\CommandProcessor.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Compiler.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\CoordSys.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\CustomProperties.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DAEngine.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DBInfo.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\DBLayer.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\ExprPacket.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\ExprPacketCreator.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\FcnInfoServer.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Find.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Geo.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\GeoObject.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\GeoObjectProcess.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Geoset.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\GMLXlat.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Legend.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\libspw_mi.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapBasicInternalFcn.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapBasicTranslator.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MapperAndLayout.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIApp.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MILexer.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIMetadata.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MILicensing.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIOci.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIOdbc.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIRdb.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIRdbSpatial.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\migdiplus.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\MIWindow.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Program.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Raster.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Styles.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\TextFileReader.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Thematics.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Tokens.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Tools.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Utility.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\XmlUtil.DLL
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\Interop.MapXLib.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\bin\Debug\AxInterop.MapXLib.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbprojAssemblyReference.cache
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\Interop.MapXLib.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\AxInterop.MapXLib.dll
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.ResolveComReference.cache
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Form1.resources
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.Resources.resources
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.GenerateResource.cache
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.vbproj.CopyComplete
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.exe
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.xml
+E:\de tai hcm 2020\Nang cap Mapextreme\Git\DemoMapxtreme68\obj\Debug\DemoMapxtreme68.pdb

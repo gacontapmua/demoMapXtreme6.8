@@ -1,0 +1,25 @@
+!table
+!version 450
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 18
+    LAYER Char (17) ;
+    OBJECTID Integer ;
+    maNhanDang Char (18) ;
+    maTrinhBay Char (10) ;
+    doChinhXac Float ;
+    maDoiTuong Char (4) ;
+    doiTuong Char (254) ;
+    ten Char (150) ;
+    Shape_Leng Float ;
+    mucChiTiet Char (254) ;
+    tgThuNhan Char (10) ;
+    tgCapNhat Char (10) ;
+    phienHieu Char (20) ;
+    nguonDL Char (150) ;
+    doiTuong_T Char (254) ;
+    ngsyCapNha Char (8) ;
+    SHAPE_Le_1 Float ;
+    SHAPE_Area Float ;
