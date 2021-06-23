@@ -14,13 +14,18 @@ Imports MapInfo.Persistence
 Imports System.Data
 
 Imports MapInfo.Styles
+Imports MapInfo.Windows.Controls
+Imports MapInfo.Geometry
 
 Public Class Form1
     Inherits System.Windows.Forms.Form
     Private _table As Table
     Private _layer As FeatureLayer
     Private _lineStyleDlg As LineStyleDlg = Nothing
-    Private path As String = "I:\May ao\Source Code\KCD-S-Git\KCD-S\bin\x86\Maps\Maps_55"
+    Private path As String = System.IO.Path.GetDirectoryName(
+      System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase)
+    Private ud = New UserDrawHighlighter("Highlighted Cities", "userdraw")
+    Private connect As New MIConnection()
     ' Private path As String = "D:\\Mayao\\Maps\\BanDoNguoc\\Maps\\"
     ''' <summary>
     ''' Mở Geoset
@@ -29,13 +34,20 @@ Public Class Form1
     ''' <param name="e"></param>
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'load geoset
-        Dim gl As New MapGeosetLoader(path + "\BanDo.gst")
+        path = path.Substring(6)
+        Dim gl As New MapGeosetLoader(path + "\Maps\BanDo.gst")
         MapControl1.Map.Load(gl)
         LayerControl1.Map = MapControl1.Map
         ' đặt mức zoom khi load bản đồ lên là 25000m
 
         Me.MapControl1.Map.Zoom = New MapInfo.Geometry.Distance(25000, MapInfo.Geometry.DistanceUnit.Mile)
+        ' now create and add our user draw layer to the map
 
+        MapControl1.Map.Layers.Insert(0, ud)
+
+
+        g = Me.MapControl1.CreateGraphics()
+        g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality
     End Sub
     ''' <summary>
     ''' Mở bảng .TAB
@@ -195,7 +207,8 @@ Public Class Form1
     End Sub
 
     Private Sub MapControl1_MouseDown(sender As Object, e As MouseEventArgs) Handles MapControl1.MouseDown
-
+        'Cho phép vẽ đường thẳng bằng chuột
+        'Me.TopMenuStrip.Show(MapControl1, New Point(e.X, e.Y))
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -206,5 +219,117 @@ Public Class Form1
         Dim cor As String
         cor = featureLayer.CoordSys.Datum.ToString()
         MessageBox.Show(cor.ToString())
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Dim table As Table = Session.Current.Catalog.OpenTable(path + "\\FIR.tab")
+        Dim featureLayer As New FeatureLayer(table)
+        bando.MapInfo_Mapping_Adornments(Me.MapControl1.Map, featureLayer)
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Dim table As Table = Session.Current.Catalog.OpenTable(path + "\\FIR.tab")
+        Dim featureLayer As New FeatureLayer(table)
+        bando.MapInfo_Mapping_Adornments_WithMapControl(Me.MapControl1, featureLayer)
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        'bando.MapInfo_Mapping_Thematics_BarTheme(Me.MapControl1.Map)
+        bando.MapInfo_Mapping_HowDoICreateLabelLayerWithProperties(Me.MapControl1)
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        connect.Open()
+        bando.MapInfo_Mapping_HowDoICreateFeatureAddToMap(Me.MapControl1, connect, 0, 0)
+        connect.Close()
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        bando.MapInfo_Tools_HowDoICreateAddPolygonWithCustomProperties(Me.MapControl1)
+    End Sub
+
+    Private Sub VẽĐườngThẳngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VẽĐườngThẳngToolStripMenuItem.Click
+        'Dim dPoints As MapInfo.Geometry.DPoint()
+        'dPoints(0) = New MapInfo.Geometry.DPoint(-103, 32)
+        'dPoints(1) = New MapInfo.Geometry.DPoint(-97, 26)
+        'dPoints(2) = New MapInfo.Geometry.DPoint(-88, 29)
+        'dPoints(3) = New MapInfo.Geometry.DPoint(-94, 36)
+        'dPoints(4) = New MapInfo.Geometry.DPoint(-103, 32)
+        ''Create Object of FeatureGeometry Class
+        'Dim g As MapInfo.Geometry.FeatureGeometry = New MapInfo.Geometry.MultiPolygon(MapControl1.Map.GetDisplayCoordSys(), MapInfo.Geometry.CurveSegmentType.Linear, dPoints)
+        'Dim sis As MapInfo.Styles.SimpleInterior = New MapInfo.Styles.SimpleInterior(9, System.Drawing.Color.Purple)
+        'Dim lw As MapInfo.Styles.LineWidth = New MapInfo.Styles.LineWidth(3, MapInfo.Styles.LineWidthUnit.Point)
+        ''Apply Style over area
+        'Dim sl As MapInfo.Styles.SimpleLineStyle = New MapInfo.Styles.SimpleLineStyle(lw, 3)
+        'Dim ar As MapInfo.Styles.AreaStyle = New MapInfo.Styles.AreaStyle(sl, sis)
+        ''Fill with CompositeStyle 
+        'Dim cs As MapInfo.Styles.CompositeStyle = New MapInfo.Styles.CompositeStyle(ar, Nothing, Nothing, Nothing)
+
+        'Dim f As Feature = New Feature(g, cs)
+        'Dim ti As MapInfo.Data.TableInfo = MapInfo.Data.TableInfoFactory.CreateTemp("Temp")
+        'Dim table As MapInfo.Data.Table = MapInfo.Engine.Session.Current.Catalog.CreateTable(ti)
+
+        'Dim k As MapInfo.Data.Key = table.InsertFeature(f)
+        Dim ti As MapInfo.Data.TableInfo = MapInfo.Data.TableInfoFactory.CreateTemp("Temp")
+        Dim table As MapInfo.Data.Table = MapInfo.Engine.Session.Current.Catalog.CreateTable(ti)
+
+        Dim startPoint As New MapInfo.Geometry.DPoint(-100, 40)
+        Dim endPoint As New MapInfo.Geometry.DPoint(-70, 20)
+
+        Dim g As MapInfo.Geometry.FeatureGeometry = MapInfo.Geometry.MultiCurve.CreateLine(Me.MapControl1.Map.GetDisplayCoordSys(), startPoint, endPoint)
+
+        'set line style
+        Dim bl As New MapInfo.Styles.SimpleLineStyle(New MapInfo.Styles.LineWidth(3, MapInfo.Styles.LineWidthUnit.Pixel), 2)
+        Dim cs As New MapInfo.Styles.CompositeStyle(Nothing, bl, Nothing, Nothing)
+
+        Dim f As New MapInfo.Data.Feature(g, cs)
+        table.InsertFeature(f)
+
+        Dim fl As New FeatureLayer(table)
+        Me.MapControl1.Map.Layers.Add(fl)
+    End Sub
+    Public Shared Sub DrawLine(ByVal mapControl1 As MapControl, ByVal map As MapInfo.Mapping.Map, ByVal tableName As String, ByVal begDpoint As MapInfo.Geometry.DPoint,
+        ByVal endDpoint As MapInfo.Geometry.DPoint, ByVal Pattoner As Integer, ByVal color As System.Drawing.Color)
+
+        Dim myMap As MapInfo.Mapping.Map = MapInfo.Engine.Session.Current.MapFactory(mapControl1.Map.Alias)
+        Dim workLayer As FeatureLayer = myMap.Layers(tableName + "layer")
+        Dim Table As MapInfo.Data.Table = workLayer.Table
+
+        Dim mc As MapInfo.Geometry.MultiCurve = MapInfo.Geometry.MultiCurve.CreateLine(myMap.GetDisplayCoordSys(), begDpoint, endDpoint)
+        Dim bl As MapInfo.Styles.SimpleLineStyle = New MapInfo.Styles.SimpleLineStyle(New MapInfo.Styles.LineWidth(2, MapInfo.Styles.LineWidthUnit.Pixel), Pattoner, color)
+        Dim cs As MapInfo.Styles.CompositeStyle = New MapInfo.Styles.CompositeStyle(Nothing, bl, Nothing, Nothing)
+        Dim f As MapInfo.Data.Feature = New Feature(Table.TableInfo.Columns)
+        f.Geometry = mc
+        f.Style = cs
+        Table.InsertFeature(f)
+
+    End Sub
+    Private m_PointsClick As New ArrayList()
+    Private m_drawPoint As New ArrayList()
+    Private g As Graphics
+    Dim pointsPen As Pen = New Pen(Color.Red)
+    Private Sub MapControl1_MouseClick(sender As Object, e As MouseEventArgs) Handles MapControl1.MouseClick
+        If e.Button = MouseButtons.Right Then
+            Dim m_Point As System.Drawing.Point = New System.Drawing.Point(e.X, e.Y)
+            m_drawPoint.Add(m_Point)
+            'Đầu tiên cần xác định điểm Click trên màn hình và chuyển đổi sang tọa độ bản đồ.
+            Dim dPoint As New DPoint()
+            MapControl1.Map.DisplayTransform.FromDisplay(m_Point, dPoint)
+            m_PointsClick.Add(dPoint)
+
+            g.DrawRectangle(pointsPen, m_Point.X - 4, m_Point.Y - 4, 4 * 2, 4 * 2)
+            If m_PointsClick.Count > 1 Then
+
+                ud.diemdau = m_drawPoint(m_drawPoint.Count - 2)
+                ud.diemcuoi = m_drawPoint(m_drawPoint.Count - 1)
+
+                g.DrawLine(pointsPen, m_drawPoint(m_drawPoint.Count - 2), m_drawPoint(m_drawPoint.Count - 1))
+            End If
+
+        End If
+
+
+
+
     End Sub
 End Class

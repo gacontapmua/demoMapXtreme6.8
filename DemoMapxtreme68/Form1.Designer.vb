@@ -26,6 +26,11 @@ Partial Class Form1
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
         Me.LayerControl1 = New MapInfo.Windows.Controls.LayerControl()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -51,6 +56,8 @@ Partial Class Form1
         Me.MapToolBarButton13 = New MapInfo.Windows.Controls.MapToolBarButton()
         Me.MapToolBarButton11 = New MapInfo.Windows.Controls.MapToolBarButton()
         Me.MapToolBarButton12 = New MapInfo.Windows.Controls.MapToolBarButton()
+        Me.TopMenuStrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.VẽĐườngThẳngToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -59,12 +66,14 @@ Partial Class Form1
         Me.SplitContainer2.Panel1.SuspendLayout()
         Me.SplitContainer2.Panel2.SuspendLayout()
         Me.SplitContainer2.SuspendLayout()
+        Me.TopMenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
         'SplitContainer1
         '
         Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(2)
         Me.SplitContainer1.Name = "SplitContainer1"
         '
         'SplitContainer1.Panel1
@@ -75,14 +84,16 @@ Partial Class Form1
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.MapControl1)
         Me.SplitContainer1.Panel2.Controls.Add(Me.MapToolBar1)
-        Me.SplitContainer1.Size = New System.Drawing.Size(1292, 644)
-        Me.SplitContainer1.SplitterDistance = 430
+        Me.SplitContainer1.Size = New System.Drawing.Size(1287, 732)
+        Me.SplitContainer1.SplitterDistance = 427
+        Me.SplitContainer1.SplitterWidth = 3
         Me.SplitContainer1.TabIndex = 0
         '
         'SplitContainer2
         '
         Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer2.Margin = New System.Windows.Forms.Padding(2)
         Me.SplitContainer2.Name = "SplitContainer2"
         Me.SplitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
@@ -92,6 +103,11 @@ Partial Class Form1
         '
         'SplitContainer2.Panel2
         '
+        Me.SplitContainer2.Panel2.Controls.Add(Me.Button14)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.Button13)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.Button12)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.Button11)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.Button10)
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button9)
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button8)
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button7)
@@ -102,8 +118,9 @@ Partial Class Form1
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button3)
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button2)
         Me.SplitContainer2.Panel2.Controls.Add(Me.Button1)
-        Me.SplitContainer2.Size = New System.Drawing.Size(430, 644)
-        Me.SplitContainer2.SplitterDistance = 360
+        Me.SplitContainer2.Size = New System.Drawing.Size(427, 732)
+        Me.SplitContainer2.SplitterDistance = 408
+        Me.SplitContainer2.SplitterWidth = 3
         Me.SplitContainer2.TabIndex = 0
         '
         'LayerControl1
@@ -119,6 +136,7 @@ Partial Class Form1
         Me.LayerControl1.ItemHeight = 20
         Me.LayerControl1.Location = New System.Drawing.Point(0, 0)
         Me.LayerControl1.Map = Nothing
+        Me.LayerControl1.Margin = New System.Windows.Forms.Padding(2)
         Me.LayerControl1.Name = "LayerControl1"
         Me.LayerControl1.OriginalMap = Nothing
         Me.LayerControl1.PointSampleMaximumPointSize = 18.0R
@@ -126,54 +144,104 @@ Partial Class Form1
         Me.LayerControl1.SelectedTab = MapInfo.Windows.Controls.PropertiesCategory.Custom
         Me.LayerControl1.ShowContextMenu = True
         Me.LayerControl1.ShowMapNode = True
-        Me.LayerControl1.Size = New System.Drawing.Size(430, 360)
+        Me.LayerControl1.Size = New System.Drawing.Size(427, 408)
         Me.LayerControl1.TabIndex = 0
         Me.LayerControl1.Tools = Nothing
         Me.LayerControl1.UpdateWhenCollectionChanges = True
         Me.LayerControl1.UpdateWhenMapViewChanges = True
         Me.LayerControl1.UpdateWhenNameChanges = True
         '
+        'Button14
+        '
+        Me.Button14.Location = New System.Drawing.Point(186, 206)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(75, 23)
+        Me.Button14.TabIndex = 14
+        Me.Button14.Text = "Button14"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Location = New System.Drawing.Point(178, 178)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(75, 23)
+        Me.Button13.TabIndex = 13
+        Me.Button13.Text = "Feature"
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Location = New System.Drawing.Point(28, 236)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(115, 24)
+        Me.Button12.TabIndex = 12
+        Me.Button12.Text = "Theme"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(28, 207)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(115, 23)
+        Me.Button11.TabIndex = 11
+        Me.Button11.Text = "Button11"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(28, 178)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(115, 23)
+        Me.Button10.TabIndex = 10
+        Me.Button10.Text = "Button10"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(237, 183)
+        Me.Button9.Location = New System.Drawing.Point(178, 149)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(121, 30)
+        Me.Button9.Size = New System.Drawing.Size(91, 24)
         Me.Button9.TabIndex = 9
         Me.Button9.Text = "Coordinate"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(38, 183)
+        Me.Button8.Location = New System.Drawing.Point(28, 149)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(2)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(153, 30)
+        Me.Button8.Size = New System.Drawing.Size(115, 24)
         Me.Button8.TabIndex = 8
         Me.Button8.Text = "Change Style"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(237, 143)
+        Me.Button7.Location = New System.Drawing.Point(178, 116)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(121, 34)
+        Me.Button7.Size = New System.Drawing.Size(91, 28)
         Me.Button7.TabIndex = 7
         Me.Button7.Text = "ZoomValue"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(38, 143)
+        Me.Button6.Location = New System.Drawing.Point(28, 116)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(153, 34)
+        Me.Button6.Size = New System.Drawing.Size(115, 28)
         Me.Button6.TabIndex = 6
         Me.Button6.Text = "RemoveLayer"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(237, 102)
+        Me.Button5.Location = New System.Drawing.Point(178, 83)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(121, 35)
+        Me.Button5.Size = New System.Drawing.Size(91, 28)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "ScaleValue"
         Me.Button5.UseVisualStyleBackColor = True
@@ -181,45 +249,50 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(248, 71)
+        Me.CheckBox1.Location = New System.Drawing.Point(186, 58)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(142, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(110, 17)
         Me.CheckBox1.TabIndex = 4
         Me.CheckBox1.Text = "Biên giới quốc gia"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(237, 18)
+        Me.Button4.Location = New System.Drawing.Point(178, 15)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 32)
+        Me.Button4.Size = New System.Drawing.Size(99, 26)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Show Lable"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(38, 99)
+        Me.Button3.Location = New System.Drawing.Point(28, 80)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(153, 38)
+        Me.Button3.Size = New System.Drawing.Size(115, 31)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Cấu hình mặc định"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(38, 56)
+        Me.Button2.Location = New System.Drawing.Point(28, 46)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(153, 37)
+        Me.Button2.Size = New System.Drawing.Size(115, 30)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Lưu geoset"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(38, 18)
+        Me.Button1.Location = New System.Drawing.Point(28, 15)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(153, 32)
+        Me.Button1.Size = New System.Drawing.Size(115, 26)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "AddLayer"
         Me.Button1.UseVisualStyleBackColor = True
@@ -229,8 +302,9 @@ Partial Class Form1
         Me.MapControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MapControl1.IgnoreLostFocusEvent = False
         Me.MapControl1.Location = New System.Drawing.Point(0, 28)
+        Me.MapControl1.Margin = New System.Windows.Forms.Padding(2)
         Me.MapControl1.Name = "MapControl1"
-        Me.MapControl1.Size = New System.Drawing.Size(858, 616)
+        Me.MapControl1.Size = New System.Drawing.Size(857, 704)
         Me.MapControl1.TabIndex = 1
         Me.MapControl1.Text = "MapControl1"
         Me.MapControl1.Tools.LeftButtonTool = Nothing
@@ -243,9 +317,10 @@ Partial Class Form1
         Me.MapToolBar1.DropDownArrows = True
         Me.MapToolBar1.Location = New System.Drawing.Point(0, 0)
         Me.MapToolBar1.MapControl = Me.MapControl1
+        Me.MapToolBar1.Margin = New System.Windows.Forms.Padding(2)
         Me.MapToolBar1.Name = "MapToolBar1"
         Me.MapToolBar1.ShowToolTips = True
-        Me.MapToolBar1.Size = New System.Drawing.Size(858, 28)
+        Me.MapToolBar1.Size = New System.Drawing.Size(857, 28)
         Me.MapToolBar1.TabIndex = 0
         '
         'MapToolBarButton1
@@ -326,12 +401,25 @@ Partial Class Form1
         Me.MapToolBarButton12.Name = "MapToolBarButton12"
         Me.MapToolBarButton12.ToolTipText = "Center"
         '
+        'TopMenuStrip
+        '
+        Me.TopMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VẽĐườngThẳngToolStripMenuItem})
+        Me.TopMenuStrip.Name = "TopMenuStrip"
+        Me.TopMenuStrip.Size = New System.Drawing.Size(160, 26)
+        '
+        'VẽĐườngThẳngToolStripMenuItem
+        '
+        Me.VẽĐườngThẳngToolStripMenuItem.Name = "VẽĐườngThẳngToolStripMenuItem"
+        Me.VẽĐườngThẳngToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
+        Me.VẽĐườngThẳngToolStripMenuItem.Text = "Vẽ đường thẳng"
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1292, 644)
+        Me.ClientSize = New System.Drawing.Size(1287, 732)
         Me.Controls.Add(Me.SplitContainer1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.SplitContainer1.Panel1.ResumeLayout(False)
@@ -344,6 +432,7 @@ Partial Class Form1
         Me.SplitContainer2.Panel2.PerformLayout()
         CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer2.ResumeLayout(False)
+        Me.TopMenuStrip.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -376,4 +465,11 @@ Partial Class Form1
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents TopMenuStrip As ContextMenuStrip
+    Friend WithEvents VẽĐườngThẳngToolStripMenuItem As ToolStripMenuItem
 End Class
